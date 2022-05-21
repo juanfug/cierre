@@ -5,7 +5,10 @@
     list-style: none;
     font-family: sans-serif;
 }
-
+html{
+    min-height: 100%;
+    position: relative;
+}
 /*------BODY--------*/
 body{
     background-color: #447CBB;
@@ -140,12 +143,44 @@ body{
     width: auto;
     height: 700px;
 }
-.footer-cont-all{
+footer{
     background-color: #185FA1;
-    height: 350px;
-    width: auto;
+    height: 370px;
+    max-width: auto;
+    bottom: 0;
+    position: relative;
+}
+.container-content-footer{
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+    height: 320px;
 }
 .cont-info-icontec img{
     height: 125px;
     width: 270px;
+    margin-top: 65px;
+}
+.cont-info-contac h3, p{
+    font-family: sans-serif;
+    color: #ffffff;
+    margin-top: 20px;
+}
+.cont-info-contac{
+    width: 420px;
+    height: 20px;
+}
+.cont-logo-old img{
+    margin-top: 45px;
+}
+
+.cont-logo-old{
+    max-width: 420px;
+}
+
+footer>p{
+    text-align: center;
+    color: #ffffff;
+    bottom: 0;
+    top: 5px;
 }
