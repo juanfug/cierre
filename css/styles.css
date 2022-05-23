@@ -219,8 +219,30 @@ footer>p {
     bottom: 0;
     top: 15px;
 }
+.note{
+    margin-left: 10%;
+    width: 160px;
+    height: 40px;
+    background-color: rgb(43, 180, 43);
+    border-radius: 8px;
+    border: #ffffff;
+}
 
-.view-pdf {
-    margin: auto;
-    display: block;
+.note a{
+    color:#ffffff;
+}
+
+@media only screen and (max-width: 320px) {
+    
+footer{
+    background-color: #185FA1;
+    height: 520px;
+    width: 100%;
+    bottom: 0;
+    }
+}
+
+
+@media(){
+
 }

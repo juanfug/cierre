@@ -1,0 +1,21 @@
+.conten-page p{
+    margin: auto;
+    display: block;
+}
+.notes{
+    margin-left: 10%;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(43, 180, 43);
+    border-radius: 8px;
+    border: #ffffff;
+}
+
+.notes a{
+    color:#ffffff;
+}
+
+.view-pdf {
+    margin: auto;
+    display: block;
+}
