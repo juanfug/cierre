@@ -1,14 +1,17 @@
 .conten-page p{
     margin: auto;
     display: block;
+    top: 20px;
 }
 .notes{
-    margin-left: 10%;
+    margin:auto;
     width: 120px;
     height: 40px;
     background-color: rgb(43, 180, 43);
-    border-radius: 8px;
-    border: #ffffff;
+    border-radius: 6px;
+    border: 1px solid rgb(43, 180, 43);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    align-items: center;
 }
 
 .notes a{
@@ -16,6 +19,7 @@
 }
 
 .view-pdf {
-    margin: auto;
+    margin: 10px auto;
     display: block;
 }
+

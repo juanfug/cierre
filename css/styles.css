@@ -13,6 +13,7 @@
 
 body {
     background-color: #447CBB;
+    min-height: 100vh;
 }
 
 
@@ -61,8 +62,8 @@ body {
 footer{
     background-color: #185FA1;
     height: 420px;
-    display: grid;
-    position: relative;
+    margin-top: auto;
+
 }
 
 .container-content-footer {
@@ -96,18 +97,19 @@ footer{
 }
 
 footer>p {
-    text-align: center;
+    width: 450px;
     color: #ffffff;
-    bottom: 0;
-    top: 15px;
+
+    margin: auto;
 }
 .note{
     margin-left: 10%;
     width: 160px;
     height: 40px;
     background-color: rgb(43, 180, 43);
-    border-radius: 8px;
-    border: #ffffff;
+    border-radius: 6px;
+    border: 1px solid rgb(43, 180, 43);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .note a{
@@ -144,6 +146,45 @@ footer>p {
     }
     .cont-info-icontec{
         top: 150px;
-    }
+    }   
+    
 
+}
+
+@media only screen and (max-width: 768px) {
+    body{
+        display: inline-block;
+    }
+    .conten-page{
+    display: flex;
+    }
+    footer{
+    background-color: #185FA1;
+    width: 100%;
+    height: 900px;
+    margin-top: auto;
+    }
+    .container-content-footer{
+    margin: 20px;
+    display: block;
+    height: 720px;
+    width: auto;
+    }
+    .cont-info-contac{
+        width: 760px;
+        height: 290px;
+    }
+    .cont-info-contac h3, p{
+        width: 320px;
+    }
+    .cont-info-icontec{
+        top: 150px;
+    }
+    .cont-logo-old{
+        max-width: 320px;
+    }
+}
+
+button{
+    border: 1px solid greed;
 }
