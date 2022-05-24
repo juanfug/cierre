@@ -149,6 +149,9 @@ footer > p {
     padding: 30px 10px;
     text-align: center;
   }
+  body{
+    max-width: 485px;
+  }
 }
 
 button {
