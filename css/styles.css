@@ -24,10 +24,9 @@ body {
   background-color: #ffffff;
 }
 
-.cont-logo {
-  width: 40%;
+.cont-header .cont img{
+  width: 20%;
   max-width: 850px;
-  margin-left: 20px auto;
 }
 
 .logo {
@@ -77,8 +76,6 @@ p {
   padding: 50px 10px;
 }
 
-.cont-logo-old img {
-}
 
 .cont-logo-old {
   display: flex;
