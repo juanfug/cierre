@@ -4,7 +4,6 @@ const baseUrl = 'https://www.sanagustinvirtual.co/ordenes/'
 const getLink = () => {
   const inputDocument = document.querySelector('#input-document').value
   console.log(inputDocument)
-
   const allItems = []
   const pdfLink = `${baseUrl}${inputDocument}.pdf`
   const container = document.createElement('div')
