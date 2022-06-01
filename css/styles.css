@@ -24,10 +24,51 @@ body {
 }
 
 /*---------------HEADER--------------*/
+.logo-nav-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.cont-header .navigation {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cont-header nav ul {
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border-radius: 0, 6, 0, 6;
+}
+
+.navigation ul li {
+  height: 25px;
+  width: auto;
+  padding: 5px;
+}
+
+.navigation ul li:hover > ul {
+  display: block;
+}
+
+.navigation ul li a {
+  transition: all 0.4s linear;
+  border-radius: 4px;
+  color: #185fa1;
+}
+
+.navigation ul li a:hover {
+  background: #66c7c2;
+  height: 15px;
+  width: 25px;
+}
 .nav-container img {
-  height: 60px;
-  width: 120px;
+  height: 80px;
+  width: 220px;
 }
 
 .cont-header {
@@ -135,8 +176,8 @@ footer > p {
   .container-content-footer {
     display: grid;
     grid-template-areas:
-      'section1 section2'
-      'section3 section3';
+      "section1 section2"
+      "section3 section3";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.5fr 200px;
     align-items: center;
