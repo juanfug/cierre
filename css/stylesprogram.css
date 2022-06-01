@@ -11,27 +11,19 @@ margin-bottom: 45px;}
     margin-left: auto;
     margin-right: auto;
 }
-.container{
-    top: 25px;    
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-    display: grid;
-    grid-gap: 2rem;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 70px 70px;
-}
 .p-3{
     font-weight: 500;
     font-size: 1.3rem;
+    background-color: #555299;
+    border-radius: 8px;
+    align-items: center;
 }
-@media only screen and (min-width: 320px) {
+@media (width: 320px) {
 .container{
-    top: 25px;    
     width: auto;
     display: grid;
-    grid-gap: 2rem;
-    grid-template-columns: 300px  ;
-    grid-template-rows: 70px 70px 70px 70px 70px 70px;
+    grid-gap: 3rem;
+    grid-template-columns: 200px;
+    grid-template-rows: 45px 45px 45px;
 }
 }
