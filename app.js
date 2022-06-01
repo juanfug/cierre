@@ -12,6 +12,10 @@ const getLink = () => {
   const linkNotes = document.createElement('a')
   const buttonContent = document.createTextNode('Ver notas')
   const embedPdf = document.createElement('iframe')
+  const banner = document.createElement('div')
+  const bannerImg = document.createElement('img')
+  banner.className = 'banner'
+  bannerImg.src = '/img/Banner-mensaje.jpg'
   linkNotes.setAttribute('href', 'programa.html')
   linkNotes.appendChild(buttonContent)
   linkNotes.setAttribute('class', 'note')
@@ -21,6 +25,8 @@ const getLink = () => {
   embedPdf.setAttribute('type', 'application/pdf')
   embedPdf.setAttribute('class', 'view-pdf')
   container.appendChild(embedPdf)
+  banner.appendChild(bannerImg)
+  sectionContainer.appendChild(banner)
   sectionContainer.appendChild(linkNotes)
   sectionContainer.appendChild(container)
   allItems.push(sectionContainer)
